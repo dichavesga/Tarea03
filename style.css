@@ -73,3 +73,15 @@ article{
     height:200px;
     object-fit:cover;
 }
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    background:#333;
+    color:white;
+    padding:30px;
+}
+
+footer div{
+    width:48%;
+}
