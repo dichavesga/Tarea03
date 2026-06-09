@@ -85,3 +85,33 @@ footer{
 footer div{
     width:48%;
 }
+
+@media (max-width:768px){
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .container{
+        flex-direction:column;
+    }
+
+    aside,
+    main{
+        width:100%;
+    }
+
+    .gallery{
+        grid-template-columns:1fr;
+    }
+
+    footer{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    footer div{
+        width:100%;
+    }
+}
