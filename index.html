@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diseño Web Responsivo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
 <body>
 
     <header>
@@ -17,20 +29,112 @@
     <div class="container">
 
         <aside>
-            <h3>Información adicional</h3>
-            <p>Conceptos importantes del diseño adaptable.</p>
+
+            <h2>Información General</h2>
+
+            <p>
+                El diseño web moderno requiere que los sitios funcionen
+                correctamente en computadoras, tabletas y teléfonos móviles.
+            </p>
+
+            <p>
+                Gracias a tecnologías como Viewport, Media Queries y Bootstrap
+                es posible construir interfaces adaptables.
+            </p>
+
         </aside>
 
         <main>
 
             <article id="responsive">
-                <h2>Diseño Responsivo</h2>
-                <p>Contenido...</p>
+
+                <h2>Diseño Web Responsivo</h2>
+
+                <p>
+                    El diseño web responsivo es una técnica que permite adaptar
+                    automáticamente una página web a distintos tamaños de pantalla.
+                </p>
+
+                <p>
+                    Su objetivo es ofrecer una experiencia de usuario óptima
+                    independientemente del dispositivo utilizado.
+                </p>
+
+                <h3>Importancia</h3>
+
+                <ul>
+                    <li>Mejora la experiencia del usuario.</li>
+                    <li>Facilita la navegación.</li>
+                    <li>Favorece el posicionamiento SEO.</li>
+                    <li>Reduce costos de mantenimiento.</li>
+                </ul>
+
             </article>
 
             <article id="viewport">
+
                 <h2>Viewport</h2>
-                <p>Contenido...</p>
+
+                <p>
+                    El viewport representa el área visible que el usuario observa
+                    dentro del navegador.
+                </p>
+
+                <p>
+                    Su configuración permite controlar cómo se muestra el contenido
+                    en dispositivos móviles.
+                </p>
+
+                <pre>
+&lt;meta name="viewport"
+content="width=device-width, initial-scale=1.0"&gt;
+                </pre>
+
+            </article>
+
+            <article id="media">
+
+                <h2>CSS3 Media Queries</h2>
+
+                <p>
+                    Las Media Queries permiten aplicar estilos diferentes según
+                    el tamaño de la pantalla.
+                </p>
+
+                <p>
+                    Son una de las herramientas más importantes para crear sitios
+                    web responsivos.
+                </p>
+
+                <pre>
+@media (max-width:768px){
+    .container{
+        flex-direction:column;
+    }
+}
+                </pre>
+
+            </article>
+
+            <article id="bootstrap">
+
+                <h2>Bootstrap 5</h2>
+
+                <p>
+                    Bootstrap es un framework que facilita el desarrollo de sitios
+                    web modernos y adaptables.
+                </p>
+
+                <h3>Componentes principales</h3>
+
+                <ul>
+                    <li>Containers</li>
+                    <li>Grid System</li>
+                    <li>Flex</li>
+                    <li>Carousel</li>
+                    <li>Navbar</li>
+                </ul>
+
             </article>
 
         </main>
@@ -39,18 +143,30 @@
 
     <section class="gallery">
 
-        <img src="img/img1.jpg" alt="">
-        <img src="img/img2.jpg" alt="">
-        <img src="img/img3.jpg" alt="">
-        <img src="img/img4.jpg" alt="">
+        <img src="https://picsum.photos/400/300?1" alt="imagen 1">
+        <img src="https://picsum.photos/400/300?2" alt="imagen 2">
+        <img src="https://picsum.photos/400/300?3" alt="imagen 3">
+        <img src="https://picsum.photos/400/300?4" alt="imagen 4">
 
     </section>
 
     <footer>
 
-        <div>Contenido Footer 1</div>
-        <div>Contenido Footer 2</div>
+        <div class="footer-box">
+            <h3>Footer 1</h3>
+            <p>
+                Información relacionada con diseño adaptable y experiencia de usuario.
+            </p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Footer 2</h3>
+            <p>
+                Ingeniería del Software - Diseño de Aplicaciones Web.
+            </p>
+        </div>
 
     </footer>
 
 </body>
+</html>
